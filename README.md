@@ -20,15 +20,15 @@ As regras de negócio deve estar dentro das entidades de domínio
 
 ## Subdominio e contextos limitados
 
-![img.png](img.png)
+![img.png](./img.png)
 
 ### Como fazer para separar os contextos?
 
-![img_1.png](img_1.png)
+![img_1.png](./img_1.png)
 
 ### Separando os domínios
 
-![img_2.png](img_2.png)
+![img_2.png](./img_2.png)
 
 # Designer Tático no Domain-Driven Design (DDD)
 
