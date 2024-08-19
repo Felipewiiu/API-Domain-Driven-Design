@@ -94,6 +94,6 @@ public class Evento {
     //Agregado de evento
     private List<TipoIngresso> tipoIngressos = new ArrayList<>();
 
-```# API-Domain-Driven-Design
-# API-Domain-Driven-Design
-# API-Domain-Driven-Design
+```
+## Camada antcorrupção
+

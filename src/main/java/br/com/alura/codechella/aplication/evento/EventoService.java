@@ -3,6 +3,7 @@ package br.com.alura.codechella.aplication.evento;
 import br.com.alura.codechella.aplication.ingresso.DadosCadastroTipoIngresso;
 import br.com.alura.codechella.infra.evento.Evento;
 import br.com.alura.codechella.infra.evento.EventoRepository;
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -10,10 +11,11 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Service
+@RequiredArgsConstructor
 public class EventoService {
 
-    @Autowired
-    private EventoRepository repository;
+
+    private final EventoRepository repository;
 
     public DadosEvento cadastrarEvento(DadosCadastroEvento dadosCadastro) {
         var evento = new Evento(dadosCadastro);
